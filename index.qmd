@@ -1,0 +1,40 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/jaafGalaPic.jpg"
+  links:
+    - icon: twitter-x
+      text: X
+      href: https://x.com/fibrou
+    - icon: github
+      text: Github
+      href: https://github.com/fibrou
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/john-paul-broussard-2a9a53/
+    - icon: envelope
+      text: Email
+      href: "mailto:john.broussard@rutgers.edu"  
+---
+
+::: {#about-block}
+:::
+
+# Welcome to my website!
+
+I am a Finance Professor with over over 25 years of extensive domestic and international experience in online and traditional academic program management. I create academic programs and courses that monetize academic effort and yield institutional revenue enhancement and stakeholder success.
+
+I recently was on the faculty at the [University of Oklahoma](http://ou.edu) and [Estonian Business School](https://ebs.ee/en), but I spent most of my career on the faculty of [Rutgers University](https://www.rutgers.edu/). I am an award-winning teacher, researcher, and a leader in online instruction. I also have extensive international academic experiences in Switzerland, Estonia, Lithuania, Latvia, Finland, and the UK.
+
+My academic research has been published in *Journal of Financial Economics, Management Science, Journal of International Financial Markets, Institutions & Money, European Financial Management, Financial Management, Journal of Financial Services Research, Quarterly Review of Economics and Finance, European Journal of Operational Research* and other journals. My current research efforts relate to high frequency trading, multivariate extreme value applications to portfolio management, CBDCs, as well as incorporating data, artificial intelligence, machine learning, and textual analysis into financial applications.
+
+I received my B.S. and Ph.D. from [Louisiana State University](http://lsu.edu) and an MBA from [Millsaps College](https://millsaps.edu/departments/else-school-of-management/). In addition to traditional academic teaching, I have taught various professional review courses since 1999 in Europe, Asia and the U.S. I am a CFA Charterholder, a Certified Financial Risk Manager, and a Professional Risk Manager. I maintain real-world relevance through being a Financial Professional Designation Exam Trainer, Financial Risk Management Specialist, Financial Market Consultant, Expert on Big Data, Implementer of Natural Language Processing, Artificial Intelligence and Machine Learning applications in Finance.
+
+Please feel free to [contact me](mailto:john.broussard@rutgers.edu) if you have any questions or would like to discuss potential projects.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://fibrouquartopub.quarto.pub/jpbtest/" role="button" target="_blank" style="padding: 15px 30px;">Thanks for viewing and feel free to pass along</a>
+</div>
+```

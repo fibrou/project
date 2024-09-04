@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 26c4b960-627b-4b44-a4e1-44cec8d6d419
+      url: 'https://fibrouquartopub.quarto.pub/jpbtest'

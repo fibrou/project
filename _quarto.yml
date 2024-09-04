@@ -1,0 +1,78 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  # Your name
+  title: "John Paul Broussard, PhD, CFA, FRM, PRM"
+  # A brief slogan (optional)
+  description: "Finance Professor Researching AI/ML/LLMs and Their Applicaitons to Finance"
+  image: img/jaafGalaPic.jpg
+  
+  favicon: img/euro.jpg
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/euro.jpg
+    
+    # your sub-pages
+    left:
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Works In Progress"
+        href: wip/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    # your social media handles
+    right:
+      # - icon: folder-symlink
+        # href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
+      - icon: twitter-x
+        href: https://x.com/fibrou
+      - icon: linkedin
+        href: https://www.linkedin.com/in/john-paul-broussard-2a9a53/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:john.broussard@rutgers.edu"  
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+    center: |
+      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  # freeze: true
+  freeze: false
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
